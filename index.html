@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/171c343896.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span class="multiple-text"></span></p>
+
+                <h1>HI, I am <span>Pratik Jadhav</span><br>from Maharashtra</h1>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> i am pratik jadhav and i am a full stack Developer <br>having the good practicale knowledge <br>in many programming sckills like java,python,html,css,sql etc...
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('project')">project</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>full stack Developer</span><br>front-end back-end Developer</li>
+                            <li><span>Web app Developer</span><br>full tack web apk</li>
+                            <li><span>androide app Developer</span><br>full stack android apk</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><span>2023</span><br>self-portfolio</li>
+                            <li><span>2020</span><br>itherium block chain voilate</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-24</span><br>MCA from Ajeenkya D Y patil univercity pune</li>
+                            <li><span>2019-21</span><br> bcs from ymn nanded</li>
+                            <li><span>2018-19</span><br>11-12 from saraswati heighschool parbhani</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>full stack Developer</h2>
+                    <p>i am a enthuziastice software developer</p>
+                    <a href="images/pdf.pdf">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>application developer</h2>
+                    <p>i am a enthuziastice software developer </p>
+                    <a href="images/pdf.pdf">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>web developer</h2>
+                    <p>i am a enthuziastice software developer </p>
+                    <a href="images/pdf.pdf">Learn more</a>
+                </div>
+            </div>
+
+
+            <br><br><br><br><br><br>
+
+            <div class="container_skill">
+                <h2>Java</h2>
+                <div class="skill-bar">
+                    <span style="width: 80%;" data-value="80">80%</span>
+                </div>
+                <h2>Python</h2>
+                <div class="skill-bar">
+                    <span style="width: 70%;" data-value="70">70%</span>
+                </div>
+                <h2>CSS</h2>
+                <div class="skill-bar">
+                    <span style="width: 90%;" data-value="90">90%</span>
+                </div>
+                <h2>SQL</h2>
+                <div class="skill-bar">
+                    <span style="width: 75%;" data-value="75">75%</span>
+                </div>
+                <h2>C++</h2>
+                <div class="skill-bar">
+                    <span style="width: 65%;" data-value="65">65%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!---portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social midea app</h3>
+                        <p>we can use that app for explore the world it available on playstore.</p>
+                        <a href="#"><i class="fa-duotone fa-anchor"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>we can easily listem music any spot using this apk.</p>
+                        <a href="#"><i class="fa-duotone fa-anchor"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Shoping app</h3>
+                        <p>for the shoping purpose we use thise apk like a as option</p>
+                        <a href="#"><i class="fa-duotone fa-anchor"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="images/pdf.pdf" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+    <!-------------contact-->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="mailto:pratikjadhav8893@gmail.com"><i class="fa-solid fa-paper-plane"></i></a>pratikjadhav8893@gmail.com</p>
+                    <p><a href="tel:9373450757"><i class="fa-solid fa-mobile"></i></a>9373450757</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/pratik-jadhav-884941257/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/jadhavpratik"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/pratikjadhav8893/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/pdf.pdf" download class="btn btn2">Download Resume </a>
+                    <!--------cv upload here-->
+                </div>
+
+                <div class="contact-right">
+
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="Email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="9" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <div class="copyright">
+        <p>welcom to my <i class="fa-solid fa-heart"></i> personal portfolio</p>
+    </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="circle-progress.js"></script> -->
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+        const typed = new Typed(".multiple-text", {
+            strings: ["Full stack Developer....", "Java Developer....", "Web Developer...."],
+            typeSpeed: 50,
+            backSpeed: 10,
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
+
+    <script>
+        // Animate the skill bars when they come into view
+        const skillBars = document.querySelectorAll('.skill-bar');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const bar = entry.target.querySelector('span');
+                    const value = bar.dataset.value;
+                    bar.style.width = value + '%';
+                }
+            });
+        });
+        skillBars.forEach(bar => {
+            observer.observe(bar);
+        });
+    </script>
+
+
+
+
+
+
+
+
+    <script>
+        sr.reveal('.container_skill', {
+            delay: 200,
+            origin: 'top'
+        })
+        sr.reveal('.about-col-1', {
+            delay: 400,
+            origin: 'top'
+        })
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
